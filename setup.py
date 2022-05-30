@@ -16,6 +16,7 @@ setup(
         'orion>=0.1.14',
         'pyyaml>=5.3',
         'pytest>=4.6',
+        'protobuf==3.19.0',
         'pytest-cov',
         'sphinx',
         'sphinx-autoapi',
