@@ -9,10 +9,10 @@
 #SBATCH --error=logs/%x__%j.err
 # to attach a tag to your run (e.g., used to track the GPU time)
 # uncomment the following line and add replace `my_tag` with the proper tag:
-##SBATCH --wckey=my_tag
+#SBATCH --wckey=tag_test_aldo
 # remove one # if you prefer receiving emails
-##SBATCH --mail-type=all
-##SBATCH --mail-user=aldo.zaimi@mila.quebec
+#SBATCH --mail-type=all
+#SBATCH --mail-user=aldo.zaimi@mila.quebec
 
 export MLFLOW_TRACKING_URI='mlruns'
 
